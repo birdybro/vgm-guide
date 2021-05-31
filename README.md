@@ -5,7 +5,6 @@ This guide should break down the necessary steps to get yourself logging vgm fro
 The following guide will be for Windows users until anyone comes up with guides of Linux/Mac users and wants to contribute.
 
 ## Sega Genesis VGM Logging
------------------------------------
 
 The first thing you will need to log is the current nightly build of BlastEm! that has been adjusted for the VGM logging behavior. No other emulator is acceptable any longer for future Sega Genesis logging. Below are the links:
 
@@ -19,7 +18,6 @@ To begin logging sound to a VGM file all you have to do is press the `m` key on 
 Continue logging all of the VGMs you can from the game and organizing them this way, we will learn tagging next.
 
 ## Tagging
------------------
 
 Next we need to tag the VGM we created. Tags are similar to MP3 tags which have info about the VGM file, title, author, game, creator of the VGM (you), etc... 
 
@@ -32,7 +30,6 @@ This is one of the easier tools to manipulate VGM files. We are just going to be
 Next individually update the Titles for each track, and add any comments as you think is relevant for each track. Once all tracks are sufficiently tagged, it's time to go to the next step.
 
 ## Trimming
------------------
 
 Trimming is the process of finding the beginning and end of a track, and cutting the VGM down to size. It also includes "looping" which is to find the "loop point" in a track which normally loops indefinitely in-game. We will get you through how to do this. Before you begin trimming my advice is to make a copy of your tagged VGM above and store them in a different folder. I usually name this folder `raws` within the game folder where I am working. Do what works for you. I also make a `trimmed` folder which is where I dump all of my completed trimmed vgm.
 
@@ -167,7 +164,6 @@ vgm_trim "10 - Sniper.vgm" 10000 137650 2690414
 And that's easy! Now the hard part is if `vgmlpfind.exe` *doesn't* find the loop. If it doesn't then play the vgm and try to manually find it, and do a lot of trial and error adjusting the values based upon what you hear and what you see in the txt file until you get it just right. There is no simple way to walk you through that step, you have to develop the skills for it on your own.
 
 ## Compressing
--------------------
 
 Next we need to compress these VGM files for submission to the project2612 website and any other website hosting vgm files. Compressing can only be done after the file has been tagged and then trimmed. If you compress before trimming, you won't be able to trim those compressed files, even upon decompression.
 
