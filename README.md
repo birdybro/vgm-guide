@@ -4,6 +4,8 @@ This guide should break down the necessary steps to get yourself logging vgm fro
 
 The following guide will be for Windows users until anyone comes up with guides of Linux/Mac users and wants to contribute.
 
+**Note:** I am looking for help completing this guide. I am open to suggestions submitted via pull request. Thanks for any help you can provide.
+
 ## Sega Genesis VGM Logging
 
 The first thing you will need to log is the current nightly build of BlastEm! that has been adjusted for the VGM logging behavior. No other emulator is acceptable any longer for future Sega Genesis logging. Below are the links:
